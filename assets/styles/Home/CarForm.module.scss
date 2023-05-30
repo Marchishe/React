@@ -1,0 +1,13 @@
+.form{
+  margin: 1rem auto 3rem;
+}
+.input{
+  padding: 1rem;
+  border: .2rem solid #222222;
+  outline: none;
+  border-radius: 2rem;
+  transition: .3s;
+  &:focus{
+    border: .2rem solid #6495ed;
+  }
+}

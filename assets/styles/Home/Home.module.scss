@@ -1,0 +1,53 @@
+.list{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap: 5rem 0;
+  justify-items: center;
+}
+.item{
+  border: .2rem solid #222222;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  cursor: pointer;
+  transition: .3s;
+  overflow: hidden;
+  &:hover{
+    transform: translatey(-1rem);
+  }
+}
+.box{
+  width: 30rem;
+  height: 20rem;
+  overflow: hidden;
+  border-bottom: .2rem solid #222222;
+}
+.image{
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.description{
+  padding: 0 1rem;
+}
+.name{
+  font-size: 2rem;
+}
+.price{
+  font-size: 1.6rem;
+}
+.button{
+  padding: 1rem;
+  margin: 1rem;
+  border: .2rem solid #6495ed;
+  border-radius: 2rem;
+  transition: .3s;
+  &:hover{
+    opacity: .8;
+  }
+}
+.absence{
+  font-size: 3rem;
+}
